@@ -17,9 +17,12 @@ Trying to rename bones to their Mixamo counterpart? Don't want to manually renam
 - Your presets will be located in  C:\Users\[Whatever your PC name is]\AppData\\Roaming\Blender Foundation\Blender\3.6[Or whatever version you're using.]\scripts\presets\renaming_templates
 - Take your preset .py files and move them there.
 
-## Making/ Deleting presets:
+## Making/Deleting presets:
 - Don't want to have to keep selecting over and over for future rigs? Click the plus button when you're done selecting your bones for renaming. Blender will ask you what you want to name your preset. Once you click OK, when you click the select dropdown, it'll be there. When you click your selection, the names will be filled im accordingly.
 - Clicking the minus button will instantly delete your currently selected preset. You can also go to the preset directory and delete it there.
 - Wish to edit your current preset? Make your changes, press the plus button, **name the preset with the same name you had before** and it will overwrite your preset data.
 
-
+# Things to note:
+- You can view the preset file in a text editor. I don't know if it'll work when you edit them... unless Blender has to find the bone name on your selected armature and leave it blank if it isn't there?
+- If you're more comfortable, you can also get the addon from here: https://payhip.com/b/zrMSa
+- If you're on a VRM to Mixamo workflow, I reccomend you look here too: https://github.com/mrstrinity/VRM-Rolly-Polly-Addon
